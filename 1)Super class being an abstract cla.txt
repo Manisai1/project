@@ -1,0 +1,21 @@
+1)Super class being an abstract class creates an overhead for all its sub classes to compulsorily define its abstract methods. I understand that it's very basic but I need to know why do programmers usually make super class as an abstract class, though we can do similar things using a super class as a non abstract class.
+
+2)We use Python assignment statements to assign objects to names. The target of an assignment statement is written on the left side of the equal sign (=), and the object on the right can be an arbitrary expression that computes an object.
+There are some important properties of assignment in Python :-
+Assignment creates object references instead of copying the objects.
+Python creates a variable name the first time when they are assigned a value.
+Names must be assigned before being referenced.
+There are some operations that perform assignments implicitly.
+1. Basic form:
+student = 'ineuron'
+print(student) 
+
+3)init is used to initializing the object’s state. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
+
+4)Each method that is inherited from a superclass can be augmented to perform some different action in the new class. If there is no augmentation then the inherited methods will perform as defined in the superclass.
+An inherited method is augmented simply by creating a new definition for the method in your class definition. 
+
+5)unction Scope is between outer { }.
+Local scope is between inner { }
+Note that, any scope created by {``} can be called as the local scope while the {``} at the beginning of the function body create the Function scope.
+So, Sometimes a Local Scope can be same as Function Scope.
